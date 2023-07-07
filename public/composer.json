@@ -1,0 +1,21 @@
+{
+    "name": "webserver/no-framework",
+    "description": "An example of a modern PHP application bootstrapped without a framework.",
+    "type": "project",
+    "require": {
+        "php-di/php-di": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Webserver\\": "/public/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Plinio Havila",
+            "email": "pliniohrcode@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
